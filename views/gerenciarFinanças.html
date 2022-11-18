@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/all.css">
+        <link rel="stylesheet" href="../plugs/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../plugs/fontawesome-free-6.2.0-web/css/all.css">
+
+        <title>Dashboard</title>
+    </head>
+    <body>
+
+        <div class="flex-dashboard">
+
+            <sidebar>
+                <div class="sidebar-tittle">
+                    <img src="../imagens/menu.png" alt="">
+                    <h2>Menu</h2>
+                
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li> <i class="fas fa-house"></i><a href="sidebar.html"> Dashboard</a></li>
+                        <li> <i class="fa-solid fa-user"></i><a href="perfil.html"> Perfil</a></li>
+                        <li> <i class="fa-solid fa-coins"></i><a href="#"> Gerenciar Finanças</a></li>
+                        <li> <i class="fa-solid fa-money-bill-trend-up"></i><a href="#"> Pagar</a></li>
+                        <li> <i class="fas fa-gift"></i><a href="#"> Desejos</a></li>
+                        
+
+                    </ul>
+                </div>
+
+            </sidebar>
+            <main>
+                <header>
+                    <a href="sidebar.html"> <i class="fas fa-house"></i>Dashboard</a>
+                    <a href="../views/index.html"> <i class="fas fa-right-from-bracket"></i>Logout</a>
+                </header>
+                <div class="main-content">
+                    <div class="panel-row">
+                        <button class = "panel panel-50" a-view="cadastrarF" onclick = "fetchContent(this)"a-folder="gerenciar">Cadastrar Contas</button>
+                        <button class = "panel panel-50" a-view="visualizarF" onclick = "fetchContent(this)"a-folder="gerenciar">Visuaalizar Contas</button>
+                    </div>
+                    <div class="content"id="ajax-content"></div>
+
+                </div>
+
+
+
+            </main>
+
+
+
+
+
+        </div>
+
+
+
+
+        <script src="../plugs/bootstrap/js/bootstrap.min.js"></scriptsrc></script>
+        <script src="../plugs/fontawesome-free-6.2.0-web/js/all.min.js"></script>
+        <script src="../js/ajax.js"></script>
+
+</body>
+</html>

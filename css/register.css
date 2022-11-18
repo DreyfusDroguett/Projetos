@@ -1,0 +1,66 @@
+.register-parent {
+    height: 100%;
+    padding: 0 2%;
+    background: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.register {
+    width: 100%;
+    max-width: 600px;
+    padding: 40px 20px 80px 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 32px 18px rgba(147, 147, 147, 1);
+    -moz-box-shadow: 0px 0px 32px 18px rgba(147, 147, 147, 1);
+    box-shadow: 0px 0px 32px 18px rgba(147, 147, 147, 1);
+
+}
+
+.register-titte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-titte img {
+
+    width: 220px;
+    height: 130px;
+
+}
+
+
+.register .form-grop label {
+
+    font-size: 16px;
+}
+
+
+.register .form-grop input {
+
+    font-size: 12px;
+}
+
+.register button {
+
+    margin-top: 30px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    width: 100%;
+    color: #fff;
+
+}
+
+
+.register button:hover {
+
+    color: #fff;
+    transform: scale(1.08);
+    border: none;
+    transition: .2s;
+
+}
